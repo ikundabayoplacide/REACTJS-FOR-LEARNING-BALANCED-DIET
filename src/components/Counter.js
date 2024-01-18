@@ -9,7 +9,7 @@ class Counter extends Component {
          count:10,
       }
     }
-    decrement(){
+    decrement=()=>{
        if(this.state.count>0){
          this.setState({
             count:this.state.count-1,
@@ -21,7 +21,7 @@ class Counter extends Component {
       <div>
         <div style={{marginLeft:500}}>
         <h3> This is going to count :{this.state.count}</h3>
-        <button onClick={()=>this.decrement()}>decrement</button>
+        <button onClick={this.decrement()}>decrement</button>
         </div>
       </div>
     )

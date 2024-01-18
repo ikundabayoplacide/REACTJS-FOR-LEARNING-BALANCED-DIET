@@ -3,8 +3,16 @@ import React, { Component } from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPersonDress,faBasketShopping, faSearch} from '@fortawesome/free-solid-svg-icons';
+
+
  class Home extends Component {
+  productHandler=()=>{
+  
+    alert("product is clicked");
+    
+  };
   render() {
+   
     return (
       <div>
         <div className='nav'>
@@ -12,10 +20,9 @@ import { faPersonDress,faBasketShopping, faSearch} from '@fortawesome/free-solid
          {/* this is heading */}
        
           <button>Home</button>
-          <button>Shop</button>
-          <button>Blog</button>
+          <button>Services</button>
+          <button onClick={this.productHandler}>Products</button>
           <button>Pages</button>
-          <button>Elementor_live</button>
           <button>Buy</button>
         <div className='icon'>
         <FontAwesomeIcon icon={faSearch} className='icons'/>

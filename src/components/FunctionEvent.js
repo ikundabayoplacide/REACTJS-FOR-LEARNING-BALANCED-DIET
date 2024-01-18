@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
- class FunctionEvent extends Component {
+ class FunctionEvent extends Component { 
    
   render() {
     const clickHunder=()=>{
-        console.log("button clicked");
+        alert("button clicked");
     }
     return (
       <div>

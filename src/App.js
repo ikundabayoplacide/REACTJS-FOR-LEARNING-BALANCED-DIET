@@ -7,6 +7,7 @@ import Msg from './components/Msg';
 import Home from './components/Home';
 import Counter from './components/Counter';
 import FunctionEvent from './components/FunctionEvent';
+import FunctionCounter from './components/FunctionCounter';
 
  class App extends Component {
   render() {
@@ -17,6 +18,7 @@ import FunctionEvent from './components/FunctionEvent';
        <Msg message=" Were are in rwanda"/>
        <Counter/>
        <FunctionEvent/>
+       <FunctionCounter/>
       </div>
     )
   }

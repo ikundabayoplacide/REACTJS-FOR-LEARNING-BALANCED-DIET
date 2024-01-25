@@ -1,0 +1,37 @@
+.mainThird{
+    margin-left: 30;
+}
+.thirdContent{
+  
+   width: 50%;
+}
+.textContent{
+    margin-top: 60px;
+ 
+}
+.imageThird{
+    margin-top: 40px;
+    margin-left: 170px;
+}
+.flexContent{
+    display: flex;
+}
+
+.thirdContent p{
+    font-size: 24px;
+}
+.placideImage{
+    border-radius: 50%;
+}
+.placideContent{
+    display: flex;
+    align-items: center;
+}
+.italicontent{
+    font-style: italic;
+}
+.flooter{
+background-color: #D2B312;
+}
+  
+  

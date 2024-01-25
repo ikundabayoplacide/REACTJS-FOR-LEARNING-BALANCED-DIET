@@ -8,6 +8,10 @@ import Home from './components/Home';
 import Counter from './components/Counter';
 import FunctionEvent from './components/FunctionEvent';
 import FunctionCounter from './components/FunctionCounter';
+import ThirdPart from './components/ThirdPart';
+import FourPart from './components/FourPart';
+import Footer from './components/Footer';
+
 
  class App extends Component {
   render() {
@@ -15,10 +19,9 @@ import FunctionCounter from './components/FunctionCounter';
       <div>
        <Home/>
        <Between/>
-       <Msg message=" Were are in rwanda"/>
-       <Counter/>
-       <FunctionEvent/>
-       <FunctionCounter/>
+      <ThirdPart/>
+      <FourPart/>
+      <Footer/>
       </div>
     )
   }

@@ -22,9 +22,10 @@
 }
 .download img{
     height: 100px;
-    margin-left: 30px;
+    margin-left: 17px;
 }
 .motoImage{
+    width: 530px;
     border-radius: 8px;
 }
 .line{

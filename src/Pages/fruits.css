@@ -1,0 +1,36 @@
+.type,.typeFruits,.BeatfulFruits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+  }
+  h1{
+    text-align: center;
+    
+  }
+  .type1 {
+    flex: 0.5;
+    margin: 0 2px; 
+    text-align: center;
+    width: 100px;
+  }
+  img{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+  }
+  .fruitButton {
+  text-align: center;
+  margin-top: 10px;
+ 
+  margin-bottom: 20px;
+  }
+  .fruitButton button{
+    font-family: initial;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  h1{
+    padding-top: 50px;
+  }

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react'
-import './shop.css'
+import './Home.css'
 import Between from './components/Between';
 import Msg from './components/Msg';
 import Home from './components/Home';
@@ -12,7 +12,6 @@ import ThirdPart from './components/ThirdPart';
 import FourPart from './components/FourPart';
 import Footer from './components/Footer';
 
-
  class App extends Component {
   render() {
     return (
@@ -20,7 +19,7 @@ import Footer from './components/Footer';
        <Home/>
        <Between/>
       <ThirdPart/>
-      <FourPart/>
+     <FourPart/>
       <Footer/>
       </div>
     )

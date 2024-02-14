@@ -5,7 +5,7 @@ function Between() {
   return (
     <div className='main'>
       <div className='main1'>
-      <img src='./image/fluits3.jpeg' width={380} height={400} className='image1'></img>
+      <img src='./image/fluits3.jpeg' width={380} height={700} className='image1'></img>
       </div>
         <div className='main2'>
             <table className='tab'>
@@ -15,7 +15,7 @@ function Between() {
             </table>
         </div>
          <div className='main3'>
-            <img src='./image/fluits5.jpeg' width={380} height={400} className='image2'></img>
+            <img src='./image/fluits5.jpeg' width={380} height={700} className='image2'></img>
          </div>
     </div>
   )

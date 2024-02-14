@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+.firstPart{
+    display: flex;
+    width: 100px;
+    margin-left: 10px;
+}
+.firstPart div {
+    margin-left: 50px;
+}
+.buttonprotein{
+    margin-bottom: 20px;
+    margin-left: 50%;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: initial;
+    font-weight: bold;
+    background-color: rgb(194, 245, 245);
+}

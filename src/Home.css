@@ -28,6 +28,11 @@ span{
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+
+}
+.link{
+    background-color:white;
+    text-decoration: none;
 }
 .icon{
   background-color: white;
@@ -40,6 +45,7 @@ span{
     font-size: 30px;
 }
 .img{
+    height: 500px;
     width: 60%;
     margin-right: 5px;
 }
@@ -65,4 +71,8 @@ pra span{
     font-size: 25px;
     text-align: center;
 
+}
+.welcome{
+    background-color: white;
+    margin-left: 80px;
 }

@@ -1,0 +1,32 @@
+div{
+    float: left;
+    }
+    input{
+    width: 300px;
+    height:30px;
+    }
+    .sendd{
+        color: rgb(18, 190, 12);
+    font-size: 20px;
+    }
+    h1{
+     color: rgb(22, 21, 26);
+     background-color: #F9F2F2;
+
+    }
+    #vuga{
+        font-size: 17px;
+    }
+
+  .form{
+    border-radius: 4px;
+    background-color: aliceblue;
+    margin-left:0px;
+   
+  }
+  .button{
+    font-size: 20px;
+  }
+  .form{
+    margin-left: 20px;
+  }

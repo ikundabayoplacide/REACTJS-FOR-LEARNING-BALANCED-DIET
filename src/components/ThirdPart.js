@@ -15,7 +15,7 @@ export default function ThirdPart() {
     <div className='mainThird'>
       <div className='flexContent'>
       <div  className='thirdContent'>
-      <img src='./image/photoImage.png' width={350} height={620} className='imageThird'></img>
+      <img src='./image/photoImage.png' width={350}className='imageThird'></img>
       </div>
       <div className='thirdContent'>
         <h1 className='textContent'> Download the app <br/> and start exploring</h1>
@@ -26,7 +26,7 @@ export default function ThirdPart() {
  <p className='italicontent'>Divine delicacies! Each Goodness bite transports you to a 
 carefree sunny day in the countryside</p>
 <div className='placideContent'>
-<img src='./image/placide.jpg' width={50} height={50} className='placideImage'/>
+<img src='./image/placide.jpg'  className='placideImage'/>
  <p style={placide}> IKUNDABAYO Placide</p>
         </div>
         </div>

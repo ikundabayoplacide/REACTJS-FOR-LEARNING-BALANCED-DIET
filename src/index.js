@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Fruit from './Pages/Fruit';
+import Product from './Pages/product';
 import BalancedService from './Pages/BalancedService';
-import { createBrowserRouter, RouterProvider,Router} from "react-router-dom";
-import Protein from './Pages/Protein';
+import { createBrowserRouter, RouterProvider,} from "react-router-dom";
+import Protein from './Pages/Page';
 import Buy from'./Pages/Buy';
 
 const router = createBrowserRouter([
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/Products",
-    element: <Fruit/>,
+    element: <Product/>,
   },
   {
     path: "/Services",

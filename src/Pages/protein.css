@@ -3,7 +3,6 @@ h1{
 }
 .firstPart{
     display: flex;
-    width: 100px;
     margin-left: 10px;
 }
 .firstPart div {

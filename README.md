@@ -1,1 +1,8 @@
-this is my first readme file. I don't know what it is but I will know 
+Frontend in 
+FIGMA DESIGN
+JAVASCRIPT
+REACTJS
+LARAVEL
+REACT NATIVE FOR MOBILE APPLICATION
+
+I'm ready for you.

@@ -9,7 +9,7 @@ function Layout({ children }) {
   return (
     <div>
       <div className='nav'>
-        <p><span>A</span>KIRA</p>
+        <p><span>BALANCED</span>DIET</p>
         {/* this is heading */}
         <button><Link to="/"className='link'>Home</Link></button>
         <button><Link to="/products" className='link'>Products</Link></button>
